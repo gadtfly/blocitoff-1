@@ -122,14 +122,7 @@ input {
 
 .splash {
   height: 100vh;
-  text-align: center;
-}
-.splash:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
-.jumbotron {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
